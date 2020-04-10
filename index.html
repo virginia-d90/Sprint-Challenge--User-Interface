@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="style/index.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body>
     <div class="container">
-        <header> 
+        <header id="Home"> 
             <img src="assets/lambda-black.png" alt="A black lambda followed by the letters a m b d a">
             <nav>
                 <a href="#Home">Home</a>
@@ -23,9 +24,11 @@
                 <a href="#Contact">Contact</a> 
             </nav>
         </header>
-    
-        <img src="assets/jumbo.jpg" alt="Time Lapse picture of car lights on a road at night ">
+       
         <section class="top-content">
+            <section class="topImage">
+                <img src="assets/jumbo.jpg" alt="Time Lapse picture of car lights on a road at night ">
+            </section>
             <div class="text-container">
                 <h2>The Future</h2>
                 <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
@@ -54,7 +57,7 @@
             </div>
         
         </section>
-
+    <span class="hidden">
         <section class="bottom-content">
 
             <div class="text-container">
@@ -81,6 +84,7 @@
                 <a href="#">Contact</a>
             </nav>
         </footer>
+    </span>
     </div><!-- container -->        
 </body>
 </html>

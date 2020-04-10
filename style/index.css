@@ -96,8 +96,8 @@ header nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
 }
 
 .top-content .text-container {
@@ -107,8 +107,8 @@ header nav a{
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
 }
 
 .middle-content h2 {
@@ -124,9 +124,9 @@ header nav a{
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 10rem;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2rem 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ header nav a{
 }
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2rem;
     justify-content: space-around;
 }
 
@@ -193,4 +193,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media(max-width:500px){
+    h2{
+        font-size: 3rem;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header img{
+        padding:3 0;
+        margin: 2% 0;
+    }
+   
+    header nav{
+        flex-direction: column;
+        font-size:2rem;
+    }
+    .topImage{
+        width:100%;
+    }
+    .top-content{
+        font-size: 2rem;
+        flex-direction: column;
+        align-items:center;
+    }
+    .top-content .text-container{
+        width: 90%;
+    }
+    .middle-content .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-content .boxes .box{
+        width: 40%;
+        height: 20rem;
+    }
+    .hidden{
+        display: none;
+    }
+    
 }
