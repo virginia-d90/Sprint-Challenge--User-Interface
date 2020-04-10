@@ -65,7 +65,20 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+}
+.links{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
